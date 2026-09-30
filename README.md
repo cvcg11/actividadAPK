@@ -19,8 +19,9 @@ Aplicación móvil desarrollada con React Native y Expo para la evaluación de P
 
 ## Enlaces de entrega
 
-- Video demostrativo público: Pendiente de agregar.
-- Descarga del APK: Pendiente de agregar.
+- Video demostrativo público: https://drive.google.com/file/d/1D-yaYQkf5rkKdTf_DJKRQsODyPoi0Ym0/view?usp=drivesdk
+
+- Descarga del APK: https://expo.dev/accounts/cvcg11/projects/catalogo-movil/builds/175e44eb-1a95-4484-b0d9-ebc17f2ca0cb
 
 ## Ejecutar el proyecto
 
