@@ -1,29 +1,41 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Catálogo Móvil",
+    "slug": "catalogo-movil",
     "version": "1.0.0",
+    "scheme": "catalogo-movil",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/catalog-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.cvcg11.catalogomovil",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/catalog-icon.png",
+        "backgroundColor": "#FFFFFF"
       },
       "edgeToEdgeEnabled": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/catalog-icon.png",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "490b03ba-2ab2-4909-8752-b8df58a95eb0"
+      }
+    },
+    "owner": "cvcg11"
   }
 }
